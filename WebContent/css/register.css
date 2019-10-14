@@ -1,0 +1,109 @@
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#login, html, body {
+	width: 100%;
+	height: 100%;
+}
+
+#login {
+	background: #F8F8F8;
+}
+
+#login>h1 {
+	display: inline-block;
+	position: absolute;
+	right: 2%;
+	bottom: 2%;
+	font-family: "SimHei", 黑体;
+	font-size: 56px;
+	color: #908f8f;
+}
+
+#login>.login {
+	width: 358px;
+	height: 450px;
+	position: absolute;
+	top: 50%;
+	margin-top: -225px;
+	margin-left: -179px;
+	left: 50%;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+}
+
+#login>.login>.login_head {
+	width: 358px;
+	height: 37px;
+	background: #F5F5F5;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-bottom: 1px solid #DDD;
+	line-height: 37px;
+}
+
+#login>.login>.login_head>h1 {
+	display: inline-block;
+	font-size: 18px;
+	margin-left: 15px;
+	font-family: "Microsoft YaHei", 微软雅黑;
+	font-weight: 100;
+}
+
+#login>.login>form>.login_head>span {
+	display: inline-block;
+	font-size: 12px;
+	font-family: "Microsoft YaHei", 微软雅黑;
+	color: #777;
+}
+
+#login>.login>form>.login_con {
+	position: absolute;
+	top: 38px;
+	left: 0px;
+	width: 358px;
+	height: 410px;
+}
+
+#login>.login>form>.login_con input {
+	display: block;
+	width: 302px;
+	margin: 0px auto;
+	padding: 6px 12px;
+	margin-top: 15px;
+	color: #999;
+}
+
+#login>.login>form>.login_con>p {
+	position: absolute;
+	bottom: 15px;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-family: "Microsoft YaHei", 微软雅黑;
+	width: 110px;
+	height: 40px;
+	font-size: 18px;
+	background: #5CB85C;
+	border-radius: 2px;
+	margin-top: 20px;
+	letter-spacing: 4px;
+}
+
+#login>.login>form>.login_con>p:hover {
+	background: #4CAE4C;
+}
+
+#login>.login>form>.login_con>.loginin {
+	left: 35px;
+}
+
+#login>.login>form>.login_con>.reg {
+	right: 35px;
+}
